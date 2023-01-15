@@ -1,3 +1,8 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -28,11 +33,67 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+h3{
+  font-size: 60px;
+  color: blue;
+  text-shadow: 3px 3px 3px  red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+h3:hover{
+  font-size: 60px;
+  color: rgb(255, 0, 0);
+  text-shadow: 3px 3px 3px  rgb(55, 0, 255);
+
+  transition: 2s;
+}
+body{
+  background-color: rgb(25, 0, 19);
+}
+
+input{
+ color: #e30000;
+ border-radius: 5px;
+ border: 5px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+background-color: #4ea9f2;
+}
+button{
+  height: 35px;
+  width: 220px;
+  color: #010101;
+  background-color: #08ff29;
+  border-color: blue;
+}
+button:hover{
+  height: 35px;
+  width: 220px;
+  color: #ffffff;
+  background-color: blue;
+  border-color: #08ff29;
+}
+h5{
+  font-size: 20px;
+  color: rgb(54, 201, 0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h5:hover{
+  color: rgb(225, 255, 0);
+}
+.esas{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+.qiymetler{
+  margin-left: 10px;
+}
+h4{
+  font-size: 20px;
+  color: aqua;
 }
